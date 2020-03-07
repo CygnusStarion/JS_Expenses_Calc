@@ -1,0 +1,41 @@
+body     { background-color: #e6e4e9;
+           background-image: url(images/background.gif); 
+           color: #221811;
+           font-family: Verdana, Arial, sans-serif; }
+header   { background-color: #5c5860;
+           height: 150px;
+           background-image: url(images/mytownbookclublogo.jpg);
+           background-repeat: no-repeat; }
+img      { padding-left: 10px;
+           padding-right: 10px; }
+h1       { padding-top: 45px;
+           padding-left: 220px;
+	       font-size: 3em; }
+h4       { background-color: #5c5860;
+           font-size: 1.2em;
+	       padding-left: 10px;
+	       padding-bottom: 5px; }
+nav      { text-align: center; 
+           font-weight: bold;
+	       font-size: 1.5em;
+	       padding-top: 10px; }
+nav a    { text-decoration: none; }
+main     { padding-left: 2em;
+           padding-right: 2em;
+	       padding-bottom: 2em;
+           display: block; }
+footer   { background-color: #5c5860;
+           font-size: small;
+	       font-style: italic;
+	       text-align: center;
+		   padding-bottom: 10px;
+	       border-top: 2px #221811 solid; }
+#wrapper { background-color: #e6e4e9;
+           width: 80%;
+           margin-right: auto;
+		   margin-left: auto; 
+		   min-width: 900px;
+		   max-width: 1280px;
+		   box-shadow: 5px 5px 5px #828282; }
+.details { padding-left: 20%;
+           padding-right: 20%; }

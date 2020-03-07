@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JavaScript Expenses Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css.css">
+
+       <script src="array01.js">
+           </script>
+
+
+
+    </head>
+    <main>
+        <div id="wrapper">
+ <header><h1><align="center">JavaScript Expenses Calculator (concept)<br /></align></h1></header>
+	<body>
+
+
+
+        <form name="testform">
+            <label for="num1">Enter first Number:</label>
+            <input type="text" name="num1" id="num1">
+            <label for="num2">Enter second Number:</label>
+            <input type="text" name="num2" id="num2">
+          <!----  <input type="submit" value="send information" id="submit"> -->
+        </form>
+
+
+        <script type="text/javascript">
+            let today = new Date();
+            let currentTime = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            let timeDisplay = (`The time now is ${currentTime}.`);
+            document.write(timeDisplay);
+            
+            
+            let nm1 = document.testform.num1.value;
+            let nm2 = document.testform.num2.value;
+            
+            ///function Math(nm1, nm2){
+            
+            //    this.nm1 = nm1;
+            //    this.nm2 = nm2;
+            //}
+            
+                   let total = nm1 + nm2;
+              //      document.write(add);
+
+              function OK(testform){
+                  var result=confirm("ready?");
+
+                  if(result == true){
+              
+
+              document.testform.submit(); }
+                  }
+            
+            document.write("<br /><br />Total: <br /><em>" + total);
+                    </script>  
+
+ <!----  <input type="button" onClick="welcome()" value="Welcome Me!" /> -->
+
+<footer>
+&copy; Copyright JJG 2020. All rights reserved.
+<!-- <a href="https://www.webdevfoundations.net">WebDevelopment &amp; Design Foundations</a>
+<a href="https://www.swic.edu">Southwestern Illinois College</a> -->
+<a href="mailto:joshua.gray@student.swic.edu">joshua.gray@student.swic.edu</a>
+</footer>
+</div>
+</main>
+</body>
+</html>
